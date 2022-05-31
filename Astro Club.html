@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+   <!-- <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>-->
+    <title> Astro Web Design </title>
+    <link rel="stylesheet"  href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    
+    <script src="script.js" defer></script>
+</head> 
+
+    
+    
+<body>
+<section  class="header">
+    <nav class= "navbar fixed-top navbar-expand-ig navbar-dark p-md-3">
+        <a href="Astro club.html"><img src="source/Logo.png"></a>
+        <div class="nav-links" id="navLinks">
+           <i class="fa fa-times" onclick="hideMenu()"></i>
+             <ul>
+                 <li><a href=""> HOME</a></li>
+                 <li><a href="#astronomers"> ARTICLES</a></li>
+                 <li><a href="#solarsystem">SOLAR SYSTEM</a></li>
+                 <li><a href="#events"> EVENTS</a></li>
+                 <li><a href="#about-us"> ABOUT US</a></li>
+                 <li><a href=""> LOGIN </a></li>
+              </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+ 
+    
+
+<div class="text-box">
+    <h1>Welcome to Ashlesha Club</h1>
+    <p>The Ashlesha club has sought to build on this fascination and brings innovation and passion to its vision of spreading the awareness <br> and knowledge of astronomy and space sciences to the students.
+    </p>
+    <a href="#about-us" class="hero-btn">Tap to Know More</a>
+</div>
+    
+    
+<!-----Floating Astronaut---->
+<div class="scene">
+<img src="source/Astronauts.png" class="astronaut">
+</div>  
+</section>
+    
+    
+    
+<!------Astronomers---->
+    
+<section id="astronomers" class="astronomers">
+    <h1>The Greatest Indian Astronomers</h1>
+    <p>Astronomy has long history in Indian subcontinent stretching from pre-historic to modern times.
+    </p>
+     
+   
+    <div class="row">
+        <div class="astronomers-col">
+            <h3>Aryabhata</h3> <p> </p>
+            <p>Birthdate :  0476 AD<br>
+               Birthplace :  Assaka<br>
+               Died :  0550 AD<br> <br>
+                Indian mathematician and astronomer Aryabhata pioneered the concept of “zero” and used it in his “place value system.” He had also worked on the approximation of pi and laid down the basic concepts of trigonometry, such as sine and cosine. He also mentioned that the Earth rotates on its axis.
+            </p>   
+        </div>
+        
+        <div class="astronomers-col">
+            <h3>Bhāskara II</h3> <p> </p>
+            <p>Birthdate :  1114 AD<br>
+               Birthplace :  Vijayapur<br>
+               Died :  1185 AD<br> <br>Renowned 12th-century mathematician and astronomer Bhāskara II is remembered for producing the first written work with full use of the decimal system. Siddhānta-Śiromani remains his most notable work. He also worked on quadratic equations and succeeded Brahmagupta as the head of the Ujjain cosmic observatory.       
+            </p>   
+        </div>
+        
+        <div class="astronomers-col">
+            <h3>Brahmagupta</h3> <p> </p>
+            <p>Birthdate :  0598 AD<br>
+               Birthplace :  Bhinmalv<br>
+               Died :  0670 AD<br> <br>Ancient Indian astronomer and mathematician Brahmagupta is best remembered for laying down rules to calculate with zero and for penning the texts Brāhmasphuṭasiddhānta and Khaṇḍakhādyaka. His other achievements include his work on surds and positive and negative numbers. He also devised a formula for the area of a cyclic quadrilateral.
+            </p>   
+        </div>
+    </div>
+    <p> </p>
+    <p> </p>
+</section>
+    
+    
+
+    
+<!--------Solar System------->
+<section id="solarsystem" class="Solarsystem">
+    <h1>Our Solar System</h1>
+    <p>The Solar System formed 4.568 billion years ago<br> from the gravitational collapse of a region within a large molecular cloud.</p>
+    
+    
+    <div class="carousel" data-carousel>
+      <button class="carousel-button prev" data-carousel-button="prev">&#8826;</button>   <!--&#8656-->
+      <button class="carousel-button next" data-carousel-button="next">&#8827;</button>   <!--&#8658-->
+      <ul data-slides>
+        <li class="slide" data-active>
+          <img src="Source/Sol2.jpg" alt="Solar System">
+        </li>
+        <li class="slide">
+          <img src="Source/mercury.jpg" alt="Mercury">
+        </li>
+        <li class="slide">
+          <img src="Source/venus.jpg" alt="Venus">
+         <li class="slide">
+          <img src="Source/earth.jpg" alt="Earth">
+        <li class="slide">
+          <img src="Source/mars.jpg" alt="Mars">
+        <li class="slide">
+          <img src="Source/Jupiter.jpg" alt="Jupiter">
+        <li class="slide">
+          <img src="Source/Saturn.jpg" alt="Saturn">
+        <li class="slide">
+          <img src="Source/uranus.jpg" alt="Uranus">
+        <li class="slide">
+          <img src="Source/neptune.jpg" alt="Neptune">
+        <li class="slide">
+          <img src="Source/new.jpg" alt="Sys">
+        </li>
+      </ul>
+    </div>
+</section>
+    
+    
+    
+    
+<!--------About Us------->
+<section id="about-us" class="about-us">
+    <h1>About Us</h1>
+    <p>Are you one of those Space buffs? Wanna hone you amateur skills in Astronomy?<br>Look no further you have reached your destination! <br>Welcome to Astro Club VNIT!</p>
+    
+    <div class="row">
+        <div class="about-col">
+            <h1>We are Astro Club, VNIT
+            </h1>
+            <p>Here, we attempt to bring about an interest and awareness in the field of Astronomy and Space Research. <br>                     All along the we have been promoting amateur astronomy through talks, competetions and shows. Astronomy is fun, but it can be even more fun when you do it with other people. So here we are for you to be amazed along with you.</p>
+            <p>We hold Observation sessions regularly. In these sessions, telescope will be used for observing Moon, nebulae, planets like Saturn etc. However, naked eye observations and using binoculars also plays an important role in astronomy. Informal session involving small quizzes and general discussions.</p>
+        </div>
+         <div class="about-col">
+             <img src="Source/2.PNG">
+         </div>
+    </div> 
+</section>
+    
+    
+<!------Footer------>
+<section class="foot">
+    <footer class="footer_area section_padding_130_0">
+      <div class="container">
+        <div class="row">
+          <!-- Single Widget-->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="single-footer-widget section_padding_0_130">
+              <!-- Footer Logo-->
+              <div class="footer-logo mb-3"></div>
+              <p>Appland is completely creative, lightweight, clean app landing page.</p>
+              <!-- Copywrite Text-->
+              <div class="copywrite-text mb-5">
+                <p class="mb-0">Made with <i class="lni-heart mr-1"></i>by<a class="ml-1" href="https://wrapbootstrap.com/user/DesigningWorld">Designing World</a></p>
+              </div>
+              <!-- Footer Social Area-->
+              <div class="footer_social_area"><a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook"><i class="fa fa-facebook"></i></a><a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Pinterest"><i class="fa fa-pinterest"></i></a><a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Skype"><i class="fa fa-skype"></i></a><a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter"><i class="fa fa-twitter"></i></a></div>
+            </div>
+          </div>
+          <!-- Single Widget-->
+          <div class="col-12 col-sm-6 col-lg">
+            <div class="single-footer-widget section_padding_0_130">
+              <!-- Widget Title-->
+              <h5 class="widget-title">About</h5>
+              <!-- Footer Menu-->
+              <div class="footer_menu">
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Corporate Sale</a></li>
+                  <li><a href="#">Terms &amp; Policy</a></li>
+                  <li><a href="#">Community</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Single Widget-->
+          <div class="col-12 col-sm-6 col-lg">
+            <div class="single-footer-widget section_padding_0_130">
+              <!-- Widget Title-->
+              <h5 class="widget-title">Support</h5>
+              <!-- Footer Menu-->
+              <div class="footer_menu">
+                <ul>
+                  <li><a href="#">Help</a></li>
+                  <li><a href="#">Support</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Term &amp; Conditions</a></li>
+                  <li><a href="#">Help &amp; Support</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Single Widget-->
+          <div class="col-12 col-sm-6 col-lg">
+            <div class="single-footer-widget section_padding_0_130">
+              <!-- Widget Title-->
+              <h5 class="widget-title">Contact</h5>
+              <!-- Footer Menu-->
+              <div class="footer_menu">
+                <ul>
+                  <li><a href="#">Call Centre</a></li>
+                  <li><a href="#">Email Us</a></li>
+                  <li><a href="#">Term &amp; Conditions</a></li>
+                  <li><a href="#">Help Center</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    
+    
+    
+    
+    
+    
+<!--    
+  <footer>
+      <div class="cont">
+       <div class="wrapper">
+        <div class="footer-widget">
+            <a herf="#">
+                <img src="" class="logo">
+            </a>
+            <p class="desc">
+            Astronomy Club of VNIT,Ashlesha invites you<br> to gaze upon the heavens and beyond <br>and see the unfolding of the casmic miracle.
+            </p>
+            <ul class="socials">
+                <li>
+                    <a herf="#">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                <a herf="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a herf="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a herf="#">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a herf="#">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="footer-widget">
+            <h6>Quick Links</h6>
+            <ul class="links">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Astro</a>
+                </li>
+                <li>
+                    <a href="#">Solar System</a>
+                </li>
+                <li>
+                    <a href="#">About Us</a>
+                </li>
+                <li>
+                    <a href="#">Login</a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="footer-widget">
+            <h6>Credit</h6>
+            <ul class="links">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Astro</a>
+                </li>
+                <li>
+                    <a href="#">Solar System</a>
+                </li>
+                <li>
+                    <a href="#">About Us</a>
+                </li>
+                <li>
+                    <a href="#">Login</a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="footer-widget">
+            <h6>Contact us</h6>
+            <ul class="links">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Astro</a>
+                </li>
+                <li>
+                    <a href="#">Solar System</a>
+                </li>
+                <li>
+                    <a href="#">About Us</a>
+                </li>
+                <li>
+                    <a href="#">Login</a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="copyright-wrapper">
+            <p> Made by 
+                <a href="#" target="blank">Doctor9Trio</a>
+            </p>
+        </div>
+    </div>
+  </div>
+ </footer>
+</section>
+      -->
+    
+  
+   
+    
+    
+    
+    
+    
+    
+<script>
+    function showMenu(){
+        document.getElementById("navLinks").style.right = "0px";
+    }
+    function hideMenu(){
+        document.getElementById("navLinks").style.right = "-200px";
+    }
+</script>
+</body>
+</html>
